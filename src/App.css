@@ -1,0 +1,36 @@
+.pict{ 
+	display: flex;
+	background-color: black;
+    flex-direction:row;
+}
+.pictW{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	height: 100vh;
+}
+.fontt{
+	position: fixed;
+	color:aliceblue;
+
+}
+
+@media screen and (max-width :768px ) {
+	.pict{ 
+		display: flex;
+		background-color: black;
+		flex-direction:column;
+		justify-content: space-around;
+	}
+	.pictW{
+		display: flex;
+		align-items: center;
+		height: 20vh;
+	}
+	.fontt{
+		position: fixed;
+		color:aliceblue;
+		/* top:0% */
+	}
+}
